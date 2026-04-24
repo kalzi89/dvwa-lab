@@ -5,11 +5,11 @@ compatibility_date = "2026-02-20"
 # 1. Define the Container and point it to the Docker Hub image
 [[containers]]
 class_name = "DvwaContainer"
-image = "registry.cloudflare.com/6db4bbca7eed4de5fb6c2382e1cd9ef1/custom-dvwa:v4"
+image = "registry.cloudflare.com/59fe37fe33b93ac0826c3f2ea7aa4c50/custom-dvwa:v4"
 
 # 2. Add your custom domain here
 routes = [
-  { pattern = "dvwa.tharunraj.co.in", custom_domain = true }
+  { pattern = "dvwa.lk-safeproject.cftenant.com", custom_domain = true }
 ]
 
 # 3. Bind the Container to a Durable Object so the Worker can talk to it
